@@ -3,28 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的个人主页</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        h1 {
-            color: #007bff;
-        }
-        p {
-            font-size: 1.2em;
-        }
-    </style>
+    <title>吴甜甜 | 金融洞察与科技未来</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>欢迎来到我的个人主页！</h1>
-    <p>这是我使用GitHub Pages搭建的第一个网站。</p>
-    <p>很高兴你能来访！</p>
-    <p>你可以点击这里访问我的 <a href="https://github.com/TWT780" target="_blank">GitHub个人资料</a>。</p>
-    <!-- 将上面的 "你的用户名" 替换成你实际的GitHub用户名 -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Wu Tiantian</a>
+            <nav class="nav">
+                <a href="#hero">主页</a>
+                <a href="#about">关于我</a>
+                <a href="#skills">技能</a>
+                <a href="#projects">项目</a>
+                <a href="#blog">博客</a>
+                <a href="#contact">联系</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero section">
+            <div class="hero-content">
+                <h1 class="hero-title">吴甜甜</h1>
+                <p class="hero-tagline type-animation">金融洞察力 · 科技未来视野</p>
+                <p class="hero-description">致力于探索金融与科技的交汇点，塑造未来商业格局。</p>
+                <a href="#projects" class="btn btn-primary">探索我的项目 &rarr;</a>
+            </div>
+            <!-- 可以添加一个抽象的背景图案或JS粒子容器 -->
+            <div class="hero-bg-overlay"></div>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section-title">关于我</h2>
+                <div class="about-content">
+                    <div class="about-text fade-in-up">
+                        <p>你好，我是吴甜甜，一名来自华东政法大学金融专业的学生，怀揣着对金融行业的热情与对科技创新的渴望。我坚信，在数据驱动的时代，金融与科技的深度融合是未来的趋势。</p>
+                        <p>在学业上，我积极探索货币金融学、金融市场、国际贸易学、商业银行业务与经营、房地产金融学、期货投资与法规等核心课程，致力于构建扎实的理论基础。同时，我熟练掌握Office办公软件、Axure RP、Visio等工具，并具备英语CET6、日语、韩语多语言能力。</p>
+                        <p>我是一个积极认真、细心负责的实践者，善于在工作中发现问题、分析问题并提出创新的解决方案。我勤奋好学，具备强大的动手能力和强烈的社会责任感，期待能在金融领域贡献我的力量，与团队共同成长。</p>
+                    </div>
+                    <!-- 可在此处添加个人头像或视觉元素 -->
+                    <!-- <div class="about-image fade-in-up">
+                        <img src="images/profile.jpg" alt="吴甜甜个人照片">
+                    </div> -->
+                </div>
+                <div class="education-info fade-in-up">
+                    <h3>教育背景</h3>
+                    <p><strong>2024.9 - 2028.6</strong> | 华东政法大学 | 金融（本科）</p>
+                    <p><strong>主修课程：</strong> 货币金融学，金融市场，国际贸易学，商业银行业务与经营，房地产金融学，期货投资与法规等。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section">
+            <div class="container">
+                <h2 class="section-title">我的技能</h2>
+                <div class="skills-grid">
+                    <div class="skill-card fade-in-left">
+                        <h3>语言技能</h3>
+                        <ul>
+                            <li>英语 CET6</li>
+                            <li>日语 (流利)</li>
+                            <li>韩语 (熟练)</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card fade-in-up">
+                        <h3>专业技能</h3>
+                        <ul>
+                            <li>熟练掌握金融专业知识</li>
+                            <li>熟悉金融工作流程</li>
+                            <li>数据分析基础 (未来可扩展：Python/R for finance)</li>
+                            <li>市场研究与报告撰写</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card fade-in-right">
+                        <h3>办公技能</h3>
+                        <ul>
+                            <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+                            <li>Axure RP (原型设计)</li>
+                            <li>Visio (流程图绘制)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section-title">精选项目</h2>
+                <div class="projects-grid">
+                    <!-- 项目卡片示例 - 填充你的实际项目 -->
+                    <div class="project-card fade-in-up">
+                        <img src="images/project-finance-analysis.jpg" alt="金融市场分析项目" class="project-img">
+                        <h3>金融市场数据分析</h3>
+                        <p>运用Excel/Python（未来可学习）对股票市场数据进行分析，揭示趋势与风险。</p>
+                        <p class="project-tech"><strong>技术栈:</strong> Excel, 数据可视化, (Python)</p>
+                        <a href="https://github.com/【你的GitHub用户名】/【项目仓库名称】" target="_blank" class="btn btn-secondary">查看项目 &rarr;</a>
+                    </div>
+                    <div class="project-card fade-in-up delay-2">
+                        <img src="images/project-trade-simulation.jpg" alt="国际贸易模拟" class="project-img">
+                        <h3>国际贸易模拟与策略研究</h3>
+                        <p>参与国际贸易课程模拟，分析不同政策对贸易流的影响并提出优化建议。</p>
+                        <p class="project-tech"><strong>技术栈:</strong> 市场分析, 宏观经济学, (Visio)</p>
+                        <a href="#" class="btn btn-secondary">了解更多 &rarr;</a>
+                    </div>
+                    <div class="project-card fade-in-up delay-4">
+                        <img src="images/project-banking-case.jpg" alt="商业银行案例研究" class="project-img">
+                        <h3>商业银行业务案例分析</h3>
+                        <p>深入研究某商业银行的业务模式与风险管理策略，撰写分析报告。</p>
+                        <p class="project-tech"><strong>技术栈:</strong> 商业分析, 金融风控, (PowerPoint)</p>
+                        <a href="#" class="btn btn-secondary">了解更多 &rarr;</a>
+                    </div>
+                    <!-- 更多项目卡片... -->
+                </div>
+                <div class="text-center mt-5 fade-in-up">
+                    <a href="projects.html" class="btn btn-primary">查看所有项目 &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog section">
+            <div class="container">
+                <h2 class="section-title">我的洞察与思考</h2>
+                <div class="blog-grid">
+                    <!-- 博客文章卡片示例 -->
+                    <div class="blog-card fade-in-up">
+                        <h3><a href="blog/post-1.html">金融科技浪潮下的个人发展机遇</a></h3>
+                        <p class="blog-date">2024年7月15日</p>
+                        <p>分享我对金融科技发展趋势的看法，以及大学生如何抓住机遇提升竞争力。</p>
+                        <a href="blog/post-1.html" class="read-more">阅读更多 &rarr;</a>
+                    </div>
+                    <div class="blog-card fade-in-up delay-2">
+                        <h3><a href="blog/post-2.html">初探量化投资：从理论到实践的思考</a></h3>
+                        <p class="blog-date">2024年6月28日</p>
+                        <p>关于量化投资入门的笔记和一些浅显的实践想法。</p>
+                        <a href="blog/post-2.html" class="read-more">阅读更多 &rarr;</a>
+                    </div>
+                    <!-- 更多博客文章卡片... -->
+                </div>
+                <div class="text-center mt-5 fade-in-up">
+                    <a href="blog.html" class="btn btn-primary">查看所有文章 &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="container">
+                <h2 class="section-title">联系我</h2>
+                <p class="contact-description fade-in-up">如果你对我的经历或项目感兴趣，或者有任何合作意向，欢迎随时与我联系！</p>
+                <div class="contact-links fade-in-up">
+                    <a href="mailto:3781872978@qq.com" class="contact-link" target="_blank">
+                        <img src="images/icon-email.svg" alt="Email Icon" class="icon">
+                        <span>3781872978@qq.com</span>
+                    </a>
+                    <a href="https://github.com/【你的GitHub用户名】" class="contact-link" target="_blank">
+                        <img src="images/icon-github.svg" alt="GitHub Icon" class="icon">
+                        <span>GitHub: 【TWT780】</span>
+                    </a>
+                    <!-- 如果有LinkedIn，也可以添加 -->
+                    <!-- <a href="【你的LinkedIn链接】" class="contact-link" target="_blank">
+                        <img src="images/icon-linkedin.svg" alt="LinkedIn Icon" class="icon">
+                        <span>LinkedIn: 【你的LinkedIn】</span>
+                    </a> -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 吴甜甜. All rights reserved. | Built with GitHub Pages</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for smooth scrolling and scroll animations -->
+    <script src="js/script.js"></script>
 </body>
 </html>
